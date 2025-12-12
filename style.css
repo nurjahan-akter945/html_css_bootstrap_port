@@ -1,4 +1,4 @@
-#bg-video{
+/* #bg-video{
     position: fixed;
     top: 0;
     left: 0;
@@ -6,7 +6,11 @@
     height: 100%;
     object-fit: cover;
     z-index: -1;
-}
+} */
+ body{
+    background: url("bg.jpeg") no-repeat center center fixed;
+    background-size: cover;
+ }
 h2{
     color: aliceblue;
     font-family: "Roboto",sans-serif;

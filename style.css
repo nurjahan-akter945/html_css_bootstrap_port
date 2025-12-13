@@ -27,13 +27,13 @@ p{
     color: aliceblue;
 
 }
-.container{
+/* .container{
     text-align: center;
     width: 100%;
     max-width: 800px;
     margin: auto;
     padding: 2rem 0;
-}
+} */
 .about-wrap{
     position: relative;
     z-index: 2;
@@ -117,6 +117,8 @@ p{
      background: rgba(43, 11, 58, 0.5);
     -webkit-backdrop-filter: blur(8px);
     box-shadow: 0 2px 30px rgba(11, 6, 24, 0.5);
+    text-align: center;
+    padding: 20px 0;
  }
  .footer p{
     font-family: "Roboto",sans-serif;
@@ -135,4 +137,12 @@ p{
     width: 180px;
     height: 180px;
     object-fit: contain;
+    display: block;
+    margin: 20px auto;
+}
+@media (max-width: 576px){
+    .card{
+        max-width: 280px;
+        margin: 0 auto 20px;
+    }
 }

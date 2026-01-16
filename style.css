@@ -20,11 +20,35 @@ h2{
 .container .head{
     margin-top: 1.1rem;
 }
+
+header .btn{
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
 h5{
     color: aliceblue;
 
 }
-
+.resume .btn{
+    background: radial-gradient(circle, rgb(116, 92, 116), rgb(184, 131, 234));
+    border-radius: 5px;
+    width: 120px;
+    height: 55px;
+    position: relative;
+    
+}
+.resume .btn a{
+    color: white;
+    /* position: absolute;
+    text-align: center;
+   */
+}
+.resume .btn:hover{
+    transform: scale(1.15);
+    transition: all 0.3s ease-in;
+}
 p{
     color: aliceblue;
 
@@ -95,16 +119,22 @@ p{
   .card {
     height: 100%;
     
+    /* border-radius: 35%; */
+    
 }
 
 .card-body {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
+   
 }
 .card-img-top {
-    height: auto;  
-    object-fit: cover;    /* keeps it pretty */
+    /* padding: 20px; */
+    width: auto;
+    height: 250px;  
+    object-fit: contain;    /* keeps it pretty */
 }
 
  .card:hover{

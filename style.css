@@ -130,8 +130,8 @@ p{
 }
 .card-img-top {
     /* padding: 20px; */
-    width: auto;
-    height: 250px;  
+    
+    height: 210px;  
     object-fit: contain;    /* keeps it pretty */
 }
 

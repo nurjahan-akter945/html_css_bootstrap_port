@@ -1,4 +1,4 @@
-/* #bg-video{
+#bg-video{
     position: fixed;
     top: 0;
     left: 0;
@@ -6,7 +6,7 @@
     height: 100%;
     object-fit: cover;
     z-index: -10;
-} */
+}
  body{
     background: url("bg.jpeg") no-repeat center center fixed;
     background-size: cover;
@@ -118,8 +118,6 @@ p{
  }
   .card {
     height: 100%;
-    
-    /* border-radius: 35%; */
     
 }
 

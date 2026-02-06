@@ -51,64 +51,83 @@
   </section>
   <!-- Project section -->
    <h2>Projects</h2>
- <section>
-     <div class="container">
-        <div class="row d-flex justify-content-center mt-4">           
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-                <div class="card">
-                    <img src="b.jpg" class="card-img-top rounded-circle" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Age Calculator</h5>
-                        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                        <a href="https://github.com/nurjahan-akter945/Age_Calculator" class="btn btn-primary">Find Project</a>
-                    </div>
-                </div>
+
+ <div class="container ">
+
+  <!-- Slider with arrows beside it -->
+  <div class="d-flex align-items-center">
+
+    <!-- Left arrow -->
+    <button onclick="slideLeft()" style="color: white;" class="btn mb-2 mb-sm-0 me-sm-2">←</button>
+
+    <!-- Slider wrapper -->
+    <div id="project-slider" style="overflow-x:auto; flex:1; scroll-behavior: smooth;">
+      <div class="row flex-nowrap">
+
+        <!-- Project 1 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="card">
+            <img src="b.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Age Calculator</h5>
+              <a href="https://github.com/nurjahan-akter945/Age_Calculator" class="btn btn-primary">Find Project</a>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-                <div class="card">
-                    <img src="c.jpg" class="card-img-top rounded-circle" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Simple User Information Form</h5>
-                        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                        <a href="https://github.com/nurjahan-akter945/simple_user_information_form" class="btn btn-info">Find Project</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-                <div class="card">
-                    <img src="portfolio_4.png" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Responsive Landing Page</h5>
-                        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                        <a href="https://ilkodevi.netlify.app/" target="_blank" class="btn btn-primary">Find Project</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-                <div class="card">
-                    <img src="JS.png" class="card-img-top rounded-circle" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Fun Project with JS</h5>
-                        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                        <a href="https://github.com/nurjahan-akter945/Fun_Project_with_JS" target="_blank" class="btn btn-info">Find Project</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-                <div class="card">
-                    <img src="kiyo.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Reverse Engineering Tools</h5>
-                        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                        <a href="https://tersinemuhendislik.netlify.app/" target="_blank" class="btn btn-primary">Find Project</a>
-                    </div>
-                </div>
-            </div>
-            
+          </div>
         </div>
+
+        <!-- Project 2 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="card">
+            <img src="c.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Simple User Info Form</h5>
+              <a href="https://github.com/nurjahan-akter945/simple_user_information_form" class="btn btn-info">Find Project</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="card">
+            <img src="portfolio_4.png" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Responsive Landing Page</h5>
+              <a href="https://ilkodevi.netlify.app/" target="_blank" class="btn btn-primary">Find Project</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="card">
+            <img src="JS.png" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Fun Project with JS</h5>
+              <a href="https://github.com/nurjahan-akter945/Fun_Project_with_JS" target="_blank" class="btn btn-info">Find Project</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="card">
+            <img src="kiyo.jpeg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Reverse Engineering Tools</h5>
+              <a href="https://tersinemuhendislik.netlify.app/" target="_blank" class="btn btn-primary">Find Project</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
- </section>
+
+    <!-- Right arrow -->
+    <button onclick="slideRight()" style="color: white;" class="btn ms-sm-2">→</button>
+
+  </div>
+</div>
+
  <section class="skills">
     <!-- <div class="container"> -->
         <h2>Skills</h2>
@@ -152,5 +171,16 @@
 </section>
 
 <script src="bootstrap.js"></script>
+<script>
+  const slider = document.getElementById("project-slider");
+
+  function slideLeft() {
+    slider.scrollLeft -= 300; // adjust pixel scroll as you like
+  }
+
+  function slideRight() {
+    slider.scrollLeft += 300;
+  }
+</script>
 </body>
 </html>

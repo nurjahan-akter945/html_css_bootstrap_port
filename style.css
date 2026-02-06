@@ -135,15 +135,26 @@ p{
     object-fit: contain;    /* keeps it pretty */
 }
 
- .card:hover{
+ /* .card:hover{
     transform: scale(1.05);
     transition: 0.2s linear;
- }
+ } */
  .card-body h5{
     color: black;
     font-family: "Roboto", sans-serif;
  }
  
+  /* Hide scrollbar but keep functionality */
+  #project-slider {
+    scrollbar-width: none;        /* Firefox */
+    -ms-overflow-style: none;     /* IE/Edge */
+  }
+
+  #project-slider::-webkit-scrollbar {
+    display: none;                /* Chrome, Safari */
+  }
+
+
 
  .footer{
      background: rgba(43, 11, 58, 0.5);

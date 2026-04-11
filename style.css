@@ -1,24 +1,10 @@
-/* #bg-video{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -10;
-} */
- /* oklch(29.3% 0.136 325.661) */
+
  body{
-    background: radial-gradient(circle at center, 
-   /* #C084FC 0%,
-  #9333EA 25%, 
-  #581C87 55%, 
-  #050505 100%, */
+  background: radial-gradient(circle at center, 
   #7C3AED 0%, 
   #4C1D95 30%, 
   #0B0B0F 70%, 
   #000000 100%);
-    /* background: radial-gradient(circle, rgba(96, 39, 85, 1),rgba(54, 53, 56, 1), rgb(69, 17, 122)); */
     min-height: 50vh;
     background-size: 100% 150%;
     animation: moveGradient 4s infinite alternate linear;
@@ -57,9 +43,7 @@ h5{
 }
 .resume .btn a{
     color: white;
-    /* position: absolute;
-    text-align: center;
-   */
+   
 }
 .resume .btn:hover{
     transform: scale(1.15);
@@ -69,13 +53,7 @@ p{
     color: aliceblue;
 
 }
-/* .container{
-    text-align: center;
-    width: 100%;
-    max-width: 800px;
-    margin: auto;
-    padding: 2rem 0;
-} */
+
 .about-wrap{
     position: relative;
     z-index: 2;
@@ -107,7 +85,6 @@ p{
  }
 
  .skills > .list-group > li {
-    /* styles for each li */
     background-color: white;
     color: black;
     border: 1px ;
@@ -195,6 +172,8 @@ p{
     object-fit: contain;
     display: block;
     margin: 20px auto;
+    box-shadow: 0 2px 30px rgba(237, 235, 241, 0.5);
+
 }
 
 @media (max-width: 576px){

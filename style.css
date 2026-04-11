@@ -1,4 +1,4 @@
-#bg-video{
+/* #bg-video{
     position: fixed;
     top: 0;
     left: 0;
@@ -6,11 +6,27 @@
     height: 100%;
     object-fit: cover;
     z-index: -10;
-}
+} */
+ /* oklch(29.3% 0.136 325.661) */
  body{
-    background: url("bg.jpeg") no-repeat center center fixed;
-    background-size: cover;
+    background: radial-gradient(circle at center, 
+   /* #C084FC 0%,
+  #9333EA 25%, 
+  #581C87 55%, 
+  #050505 100%, */
+  #7C3AED 0%, 
+  #4C1D95 30%, 
+  #0B0B0F 70%, 
+  #000000 100%);
+    /* background: radial-gradient(circle, rgba(96, 39, 85, 1),rgba(54, 53, 56, 1), rgb(69, 17, 122)); */
+    min-height: 50vh;
+    background-size: 100% 150%;
+    animation: moveGradient 4s infinite alternate linear;
  }
+ @keyframes moveGradient{
+    0% {background-position: 0% 0%;}
+    100% {background-position: 100% 100%;}
+}
 h2{
     color: aliceblue;
     font-family: "Roboto",sans-serif;
@@ -72,8 +88,9 @@ p{
 .about-card{
     background: rgba(43, 11, 58, 0.5);
     border-radius: 16px;
+    padding: 30px;
     -webkit-backdrop-filter: blur(8px);
-    box-shadow: 0 2px 30px rgba(11, 6, 24, 0.5);
+    box-shadow: 0 2px 30px rgba(212, 208, 222, 0.5);
 }
 
   .skills{
@@ -111,7 +128,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;       /* space between icon and text */
+    gap: 10px;       
     padding: 10px;
     font-family: "Roboto",sans-serif;
 
@@ -129,29 +146,22 @@ p{
    
 }
 .card-img-top {
-    /* padding: 20px; */
-    
     height: 210px;  
-    object-fit: contain;    /* keeps it pretty */
+    object-fit: contain;    
 }
 
- /* .card:hover{
-    transform: scale(1.05);
-    transition: 0.2s linear;
- } */
  .card-body h5{
     color: black;
     font-family: "Roboto", sans-serif;
  }
  
-  /* Hide scrollbar but keep functionality */
   #project-slider {
-    scrollbar-width: none;        /* Firefox */
-    -ms-overflow-style: none;     /* IE/Edge */
+    scrollbar-width: none;       
+    -ms-overflow-style: none;    
   }
 
   #project-slider::-webkit-scrollbar {
-    display: none;                /* Chrome, Safari */
+    display: none;               
   }
 
 
@@ -159,9 +169,11 @@ p{
  .footer{
      background: rgba(43, 11, 58, 0.5);
     -webkit-backdrop-filter: blur(8px);
-    box-shadow: 0 2px 30px rgba(11, 6, 24, 0.5);
+    box-shadow: 0 2px 30px rgba(226, 220, 241, 0.5);
     text-align: center;
     padding: 20px 0;
+    margin: 15px 20px 10px 20px;
+    border-radius: 20px;
  }
  .footer p{
     font-family: "Roboto",sans-serif;
@@ -179,10 +191,12 @@ p{
 .pers{
     width: 180px;
     height: 180px;
+    border: 10px solid black;
     object-fit: contain;
     display: block;
     margin: 20px auto;
 }
+
 @media (max-width: 576px){
     .card{
         max-width: 280px;
